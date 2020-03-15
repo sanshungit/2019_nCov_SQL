@@ -9,8 +9,8 @@ class data_inqurey():
     def __init__(self, db_name):
         self.cnn = mysql.connector.connect(
             host='localhost',
-            user="root",
-            passwd='sanshun1234',
+            user="root",#MySQL数据库的用户名
+            passwd='sanshun1234',#数据库密码
             database=db_name,
             charset='utf8mb4'
         )
